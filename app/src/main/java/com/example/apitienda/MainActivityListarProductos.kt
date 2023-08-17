@@ -22,7 +22,8 @@ class MainActivityListarProductos : AppCompatActivity() {
     }
 
     private fun obtenerProductos(){
-        val url = ""
+       //
+        val url = "http://Juanito21.pythonanywhere.com/producto"
         val queue = Volley.newRequestQueue(this)
         val jsonCategorias = JsonArrayRequest(
             Request.Method.GET,url,null,
